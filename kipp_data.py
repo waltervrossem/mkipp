@@ -1,6 +1,6 @@
 from matplotlib.path import Path
 from matplotlib.patches import PathPatch
-from mesa_data import *
+from .mesa_data import *
 import re
 from collections import namedtuple
 import numpy as np

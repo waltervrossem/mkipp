@@ -16,7 +16,7 @@ class Mesa_Data:
         header_names = file.readline().split()
         header_vals = file.readline().split()
         for i, header_name in enumerate(header_names):
-            self.header[header_name] = float(header_vals[i])
+            self.header[header_name] = np.safe_eval(header_vals[i])
         if only_read_header:
             file.close()
             return

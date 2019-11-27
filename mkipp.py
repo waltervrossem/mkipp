@@ -20,8 +20,8 @@ Requirements: history.data and profiles.data containing
 """
 import numpy as np
 from math import log10, pi
-from mesa_data import *
-from kipp_data import *
+from .mesa_data import *
+from .kipp_data import *
 from collections import namedtuple
 
 #matplotlib specifics
